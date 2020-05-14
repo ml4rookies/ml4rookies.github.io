@@ -6,63 +6,63 @@ entries:
   version: 0.1
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
+ # - title:
+ #   output: pdf
+ #   type: frontmatter
+ #   folderitems:
+ #   - title:
+ #     url: /titlepage.html
+ #     output: pdf
+ #     type: frontmatter
+ #   - title:
+ #     url: /tocpage.html
+ #     output: pdf
+ #     type: frontmatter
 
   - title: Getting Started
-    output: web, pdf
+    output: web
 
     folderitems:
     - title: Introduction
-      url: /course_00%20Introduction_README.md"
-      output: web, pdf
+      url: /introduction.html
+      output: web
 
   - title: ML Fundamentals
-    output: web, pdf
+    output: web
 
     folderitems:
     - title: Fundamentals
-      url: 
-      output: web, pdf
+      url: /fundamentals.html
+      output: web
 
   - title: Tooling
-    output: web, pdf
+    output: web
 
     folderitems:
     - title: Tooling
-      url: 
-      output: web, pdf
+      url: /tooling.html
+      output: web
 
   - title: Advance Topics
-    output: web, pdf
+    output: web
 
     folderitems:
     - title: Advance Topics
-      url: 
-      output: web, pdf
+      url: /advanced.html
+      output: web
 
   - title: Next Steps
-    output: web, pdf
+    output: web
 
     folderitems:
     - title: Next Steps
-      url: 
-      output: web, pdf
+      url: /next.html
+      output: web
 
   - title: References
-    output: web, pdf
+    output: web
 
     folderitems:
     - title: References
-      url: 
-      output: web, pdf
+      url: /references.html
+      output: web
