@@ -1,0 +1,68 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: ML4Rookies
+  version: 0.1
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Getting Started
+    output: web, pdf
+
+    folderitems:
+    - title: Introduction
+      url: /course_00%20Introduction_README.md"
+      output: web, pdf
+
+  - title: ML Fundamentals
+    output: web, pdf
+
+    folderitems:
+    - title: Fundamentals
+      url: 
+      output: web, pdf
+
+  - title: Tooling
+    output: web, pdf
+
+    folderitems:
+    - title: Tooling
+      url: 
+      output: web, pdf
+
+  - title: Advance Topics
+    output: web, pdf
+
+    folderitems:
+    - title: Advance Topics
+      url: 
+      output: web, pdf
+
+  - title: Next Steps
+    output: web, pdf
+
+    folderitems:
+    - title: Next Steps
+      url: 
+      output: web, pdf
+
+  - title: References
+    output: web, pdf
+
+    folderitems:
+    - title: References
+      url: 
+      output: web, pdf
