@@ -1,41 +1,37 @@
-# Basic Docz example
+# Beginner-ML-with-TensorFlow-2-x.github.io
+Organisation GitHub Page
 
-## Using `create-docz-app`
+## Basic Usage
 
-```sh
-npx create-docz-app docz-app-basic
-# or
-yarn create docz-app docz-app-basic
-```
-
-## Download manually
+### Download manually
 
 ```sh
-curl https://codeload.github.com/doczjs/docz/tar.gz/master | tar -xz --strip=2 docz-master/examples/basic
-mv basic docz-basic-example
-cd docz-basic-example
+git clone https://github.com/https://github.com/Beginner-ML-with-TensorFlow-2-x/ml4rookies-site
+cd ml4rookies-site
 ```
 
-## Setup
+### Setup
 
 ```sh
-yarn # npm i
+npm i
 ```
 
-## Run
+### Run
 
 ```sh
-yarn dev # npm run dev
+npm run dev
 ```
 
-## Build
+### Build
 
 ```sh
-yarn build # npm run build
+npm run build
 ```
 
-## Serve built app
+### Serve built app
 
 ```sh
-yarn serve # npm run serve
+npm run serve
 ```
+
+TODO: add 404 page. 
