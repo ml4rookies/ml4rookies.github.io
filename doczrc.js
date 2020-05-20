@@ -1,7 +1,7 @@
 export default {
     hashRouter: true,
     base: "/",
-    dest: "/dist",
+    dest: "/docs",
     themeConfig: {
       mode: 'dark',
     },
