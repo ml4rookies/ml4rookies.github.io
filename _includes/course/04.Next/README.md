@@ -6,4 +6,4 @@
     * Cloud ML APIs
     * ML BigQuery
 
-Back to the [Index](../README.md)
+Back to the [Index](index.html)
