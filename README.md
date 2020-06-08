@@ -1,2 +1,2 @@
-# Beginner-ML-with-TensorFlow-2-x.github.io
+# Machine Learning for Rookies
 Organisation GitHub Page

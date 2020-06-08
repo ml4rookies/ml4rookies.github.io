@@ -5,4 +5,4 @@
   * MNIST or Fashion MNIST lab using TF2.0 on Colab
   * Tensor Board
 
-Back to the [Index](../README.md)
+Back to the [Index](index.html)
