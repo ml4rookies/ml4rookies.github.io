@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://github.com/Beginner-ML-with-TensorFlow-2-x/Course
+      external_url: https://github.com/ml4rookies/Course
 #    - title: News
 #      url: /news
 
@@ -15,16 +15,8 @@ topnav_dropdowns:
     - title: ML4Rookies
       folderitems:
         - title: Team
-          external_url: https://github.com/orgs/Beginner-ML-with-TensorFlow-2-x/people
+          external_url: https://github.com/orgs/ml4rookies/people
         - title: Wiki
-          external_url: https://github.com/Beginner-ML-with-TensorFlow-2-x/Course/wiki
+          external_url: https://github.com/ml4rookies/Course/wiki
         - title: Issues
-          external_url: https://github.com/Beginner-ML-with-TensorFlow-2-x/Course/issues
-#    - title: Products
-#      folderitems:
-#        - title: Jekyll Documentation Theme
-#          url: /mydoc_introduction.html
-#        - title: Product 1
-#          url: /p1_landing_page.html
-#        - title: Product 2
-#          url: /p2_landing_page.html
+          external_url: https://github.com/ml4rookies/Course/issues
