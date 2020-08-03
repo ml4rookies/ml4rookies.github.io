@@ -7,4 +7,4 @@
 
   * Include here any copyright message
 
-Back to the index [here](index.html)
+Back to the index [here](../README.md)

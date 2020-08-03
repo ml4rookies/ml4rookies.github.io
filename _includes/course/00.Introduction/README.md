@@ -16,4 +16,4 @@
     * As per https://developers.google.com/machine-learning/problem-framing: Define ML problem and propose solution -> Construct your dataset -> Transform Data -> Train a model -> Use the model to make predictions
 
 
-Back to the [Index](index.html)
+Back to the [Index](../README.md)
