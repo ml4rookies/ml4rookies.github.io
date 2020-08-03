@@ -1,4 +1,5 @@
 #! /bin/bash
+echo "2020 (c) ML4Rokkies Jekyll GitHub Page deployment Script"
 
 ## -- Create a directory and clone ML4Rookies landing page and Course
 ## -- Define the variables CONTENT_DIR and LANDING_PAGE_DIR
@@ -10,7 +11,6 @@ export SECTIONS=`cd $CONTENT_DIR; echo */ | sed 's/\///g'`
 
 ## Help
 if [[ $1 == "-h" ]] ; then
-  echo "2020 (c) ML4Rokkies Jekyll GitHub Page deployment Script"
   echo "Usage: deploy_jekyll"
   echo ""
   echo "Currently CONTENT_DIR and LANDING_PAGE_DIR refer to the following directories"
@@ -36,13 +36,9 @@ sed -i "" -e "s/00.Introduction\/README.md/introduction.html/g" -e "s/01.Fundame
 ## -- Updating Directories and href for images
 for i in $SECTIONS; do
   
-  if [[ -d $LANDING_PAGE_DIR/_includes/course/$i ]] ; then
-    rm -rf $LANDING_PAGE_DIR/_includes/course/$i
-  fi
-
   cp -R $CONTENT_DIR/$i $LANDING_PAGE_DIR/_includes/course
   
-  if [[ -d $LANDING_PAGE_DIR/_includes/course/images ]] ; then
+  if [[ -d $LANDING_PAGE_DIR/_includes/course/$i/images ]] ; then
   
     if  [[ -d $LANDING_PAGE_DIR/images/$i ]]  ; then 
       rm -rf $LANDING_PAGE_DIR/images/$i  
